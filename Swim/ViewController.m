@@ -412,7 +412,7 @@
     
     checkBoxBtn.hidden = [[utilObj.checkBoxStatus objectAtIndex:indexPath.row] boolValue];
     
-    BOOL flag = [[utilObj.checkBoxStatus objectAtIndex:indexPath.row] boolValue];
+    //BOOL flag = [[utilObj.checkBoxStatus objectAtIndex:indexPath.row] boolValue];
     
     //NSLog(flag ? @"Yes" : @"No");
       

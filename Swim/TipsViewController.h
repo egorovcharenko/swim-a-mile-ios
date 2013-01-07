@@ -12,7 +12,7 @@
 #import <MessageUI/MFMailComposeViewController.h>
 #import "Util.h"
 @class ViewController;
-@interface TipsViewController : UIViewController<MFMailComposeViewControllerDelegate>
+@interface TipsViewController : UIViewController<MFMailComposeViewControllerDelegate, UITableViewDelegate>
 {
 
     ViewController* goalViewCtrObj;

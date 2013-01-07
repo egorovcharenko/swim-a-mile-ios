@@ -15,8 +15,6 @@
 
 @interface Twitter_FBViewController : UIViewController
 {
-    
-
     //FacebookAPIViewController* facebookAPIObj;
     FbGraph *fbGraph;
     
